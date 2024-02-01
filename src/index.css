@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/homeBg.png);
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid rgb(107, 32, 49);
+  width: 150px;
+  padding: 15px 25px;
+  background: #6200EE;
+  font-size: 16px;
+  color: #fff;
+}
+
+.data-grid {
+  box-shadow: 0 0 100px #000;
+}
